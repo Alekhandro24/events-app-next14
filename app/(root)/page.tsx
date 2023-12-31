@@ -67,9 +67,8 @@ const Home = async ({ searchParams }: SearchParamProps) => {
           emptyStateSubtext="Come back later"
           collectionType="All_Events"
           limit={6}
-          page={1}
-          totalPage={2}
-          urlParamName=""
+          page={page}
+          totalPage={events?.totalPages}
         />
       </section>
     </>

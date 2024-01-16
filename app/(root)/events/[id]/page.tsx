@@ -6,9 +6,7 @@ import {
 } from "@/lib/actions/event.action";
 import { formatDateTime } from "@/lib/utils";
 import { SearchParamProps } from "@/types";
-import events from "events";
 import Image from "next/image";
-import React from "react";
 
 const EventDetails = async ({
   params: { id },
@@ -31,7 +29,7 @@ const EventDetails = async ({
             alt="hero image"
             width={1000}
             height={1000}
-            className="h-full min-h-[300px] object-cover object-center"
+            className="h-full min-h-[300px] object-cover object-left"
           />
 
           <div className="flex w-full flex-col gap-8 p-5 md:p-10">

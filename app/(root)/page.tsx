@@ -6,7 +6,6 @@ import { getAllEvents } from "@/lib/actions/event.action";
 import { SearchParamProps } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Home = async ({ searchParams }: SearchParamProps) => {
   const page = Number(searchParams?.page) || 1;
@@ -29,7 +28,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
               Host, Connect, Celebrate: Your Events, Our Platform!
             </h1>
             <p className="p-regular-20md:p-regular-24 ">
-              Book and helpful tips from +,168+ mentors in word-class companies
+              Book and helpful tips from +1,168 mentors in word-class companies
               with our global community.
             </p>
 

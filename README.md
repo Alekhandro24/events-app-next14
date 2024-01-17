@@ -14,7 +14,7 @@ After creating authentication you'll back on the homepage as an authenticated us
 
 <img src="/public/assets/readme/eventPage.jpg" width="450" height="550">
 
-If you click of one of events it takes you to the page showcasing all the details: when and where is it, and other similar events. You can buy a ticket or get it fro free.
+If you click of one of events it takes you to the page showcasing all the details: when and where is it, and other similar events. You can buy a ticket or get it for free.
 
 ## Payment Details Page
 

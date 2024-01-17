@@ -1,4 +1,4 @@
-# Evently web app
+# Evently Web App
 
 <img src="/public/assets/readme/promptopia.jpg" width="550" height="550">
 
